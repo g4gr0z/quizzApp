@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App{
+  width: 550px;
+  height: 550px;
+  
+  background: #F5F7FB;
+  color: #293264;
+  /* box-sizing: border-box; */
+  
+  
+}
+
+/* Startscreen */
+.StartScreen{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+  align-items: center;
+}
+
+.StartScreen > h1 {
+  font-family: 'Karla';
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0%;
+}
+.StartScreen > p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.StartQuiz{
+  border: none;
+  font-family: 'Inter';
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: aliceblue;
+  background: #4D5B9E;
+  border-radius: 15px;
+  width: 193px;
+  height: 52px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+}
+
+/* Quiz */
+.Question{
+  margin: 0;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+}
+.Options > button{
+  
+  margin-right: 13px;
+  margin-bottom: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 5px 15px;
+  border: 2px solid #4D5B9E;
+  border-radius: 12px;
+  /* border-color: solid #4D5B9E; */
+  
+  background-color: #F5F7FB; 
+  
+}
+
+.Quiz{
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
