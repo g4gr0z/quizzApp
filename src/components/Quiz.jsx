@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Quiz(props, key) {
+export default function Quiz({quiz}) {
   return (
     <div className="Quiz">
-      <h1 className="Question">{props.quiz.question.question}</h1>
+      <h1 className="Question">{quiz.question}</h1>
       <div className="Options">
-        {props.quiz.options.options.map((option, i) => (
-          <button key={props.quiz.key.id}>{option}</button>
+        {quiz.options.map((option, i) => (
+          <button key={i}>{option}</button>
         ))}
       </div>
       <hr />
