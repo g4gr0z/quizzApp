@@ -1,4 +1,4 @@
-<Image of home screen
+<h1>Image of home screen<h1>
 ![image](https://user-images.githubusercontent.com/74720366/203374655-88417d5d-9827-41eb-b30b-8d751bf0e863.jpg)
 
 <h1>Image of quiz app<h1>
